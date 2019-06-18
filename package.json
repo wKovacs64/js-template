@@ -1,0 +1,51 @@
+{
+  "name": "generic-skeleton",
+  "version": "0.0.0-semantically-released",
+  "description": "Generic JavaScript Project Skeleton",
+  "main": "index.js",
+  "author": {
+    "name": "Justin Hall",
+    "email": "justin.r.hall@gmail.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wKovacs64/generic-skeleton.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wKovacs64/generic-skeleton/issues"
+  },
+  "scripts": {
+    "build": "echo \"*** need a build script here ***\"",
+    "clean": "echo \"*** need a clean script here ***\"",
+    "cm": "git-cz",
+    "develop": "echo \"*** need a develop script here ***\"",
+    "format": "prettier --write \"**/*.{js,ts,tsx,html,json,md,yml,yaml}\"",
+    "lint": "eslint --ext \".js,.ts,.tsx\" .",
+    "validate": "npm-run-all --silent --parallel lint build"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "@commitlint/cli": "8.0.0",
+    "@commitlint/config-conventional": "8.0.0",
+    "@wkovacs64/eslint-config": "5.0.0",
+    "commitizen": "3.1.1",
+    "cross-env": "5.2.0",
+    "cz-conventional-changelog": "2.1.0",
+    "eslint": "5.16.0",
+    "eslint-plugin-import": "2.17.3",
+    "eslint-plugin-jest": "22.6.4",
+    "husky": "2.4.1",
+    "lint-staged": "8.2.1",
+    "npm-run-all": "4.1.5",
+    "prettier": "1.18.2",
+    "rimraf": "2.6.3",
+    "semantic-release": "15.13.16"
+  }
+}
