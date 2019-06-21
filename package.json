@@ -1,7 +1,7 @@
 {
-  "name": "generic-skeleton",
+  "name": "js-template",
   "version": "0.0.0-semantically-released",
-  "description": "Generic JavaScript Project Skeleton",
+  "description": "JavaScript Project",
   "main": "index.js",
   "author": {
     "name": "Justin Hall",
@@ -10,10 +10,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/wKovacs64/generic-skeleton.git"
+    "url": "https://github.com/wKovacs64/js-template.git"
   },
   "bugs": {
-    "url": "https://github.com/wKovacs64/generic-skeleton/issues"
+    "url": "https://github.com/wKovacs64/js-template/issues"
   },
   "scripts": {
     "build": "echo \"*** need a build script here ***\"",

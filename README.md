@@ -1,1 +1,1 @@
-# Generic JavaScript Project Skeleton
+# JavaScript Project
