@@ -415,10 +415,10 @@
   resolved "https://registry.yarnpkg.com/@types/semver/-/semver-6.0.1.tgz#a984b405c702fa5a7ec6abc56b37f2ba35ef5af6"
   integrity sha512-ffCdcrEE5h8DqVxinQjo+2d1q+FV5z7iNtPofw3JsrltSoSVlOGaW0rY8XxtO9XukdTn8TaCGWmk2VFGhI70mg==
 
-"@wkovacs64/eslint-config@5.0.1":
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/@wkovacs64/eslint-config/-/eslint-config-5.0.1.tgz#c6ab6f0e7d80e468c0d8a5a3164f42980dcb633f"
-  integrity sha512-nJcxUdPtnh2oEDm6NhSscnX2kMR+RrFErUJqTe+LHh7u3rKivbQ5KDRFDI0uVMtUxpc1Uf0Lrmlb/jQ0+f/xWw==
+"@wkovacs64/eslint-config@6.0.0":
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/@wkovacs64/eslint-config/-/eslint-config-6.0.0.tgz#e7c97e3050f119889b9d6e855ec3c11f99dd9ed8"
+  integrity sha512-+KK2aa2XYLeqx2hIiWVjiz21tq3BHoJ4S9Bej3GcgbDjbDklHpprmEUDJGnLMCmO/ma14gFv9GBr54ZY8XIn3w==
   dependencies:
     babel-eslint "^10.0.1"
     eslint-config-airbnb-base "^13.1.0"
