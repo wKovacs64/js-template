@@ -22,6 +22,7 @@
     "develop": "echo \"*** need a develop script here ***\"",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,html,css,json,md,mdx,yml,yaml}\"",
     "lint": "eslint --ext \".js,.jsx,.ts,.tsx\" .",
+    "postinstall": "husky install",
     "validate": "npm-run-all --silent --parallel lint build"
   },
   "config": {
