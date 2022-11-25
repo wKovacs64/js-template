@@ -12,12 +12,8 @@
   },
   "packageRules": [
     {
-      "matchPackageNames": [
-        "eslint"
-      ],
-      "matchUpdateTypes": [
-        "major"
-      ],
+      "matchPackageNames": ["eslint"],
+      "matchUpdateTypes": ["major"],
       "enabled": false
     }
   ],
